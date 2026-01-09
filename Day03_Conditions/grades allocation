@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main(){
+    int marks;
+    printf("enter a marks");
+    scanf("%d",&marks);
+    
+    
+    
+    if(marks>90){
+        printf("congrats you got A");
+    }else if(marks>75){
+        printf("You got B");
+    }else if(marks<75 && marks>10){
+        printf("you got C");
+    }if(marks<10){
+        printf("you fail");
+    }
+    return 0;
+}
